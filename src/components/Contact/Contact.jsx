@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <div
       id="contact"
-      className="mt-10 py-10 w-[100%] text-white h-[80vh] md:h-[65vh] bg-black"
+      className="mt-10 py-10 w-[100%] text-white h-[50vh] md:h-[65vh] bg-black"
     >
       <h1 className="text-center text-white text-4xl my-9  font-semibold">
         <u>Contact Me</u>
