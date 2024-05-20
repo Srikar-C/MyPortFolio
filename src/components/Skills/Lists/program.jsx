@@ -6,7 +6,7 @@ const program = [
   },
   {
     id: 2,
-    img: "https://www.britefish.net/wp-content/uploads/2019/07/logo-c-1.png",
+    img: "https://e7.pngegg.com/pngimages/465/779/png-clipart-blue-and-white-c-logo-the-c-programming-language-computer-programming-computer-icons-programmer-blue-angle.png",
     name: "C",
   },
   {

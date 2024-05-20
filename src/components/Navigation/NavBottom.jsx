@@ -1,5 +1,5 @@
 import Typewriter from "typewriter-effect";
-import photo from "../../assets/myphoto.jpg";
+import photo from "../../assets/Photo.jpeg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -20,11 +20,7 @@ export default function NavBottom() {
               className="text-white"
               options={{
                 loop: true,
-                strings: [
-                  "FrontEnd Developer",
-                  "React Developer",
-                  "Django Developer",
-                ],
+                strings: ["FrontEnd Developer", "React Developer"],
                 autoStart: true,
               }}
             />
@@ -44,7 +40,7 @@ export default function NavBottom() {
         <img
           src={photo}
           alt="MyPhoto"
-          className=" w-[100%] md:w-full h-[250px] md:h-[500px] rounded-[50%]"
+          className=" w-[100%] md:w-[400px] h-[250px] md:h-[450px] rounded-[50%]"
         />
       </div>
     </div>

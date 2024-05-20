@@ -14,7 +14,7 @@ export default function Skills() {
   }, []);
 
   const [right, setRight] = useState(
-    <Template heading="Programming" list={program} />
+    <Template heading="Programming" list={program} data-aos="fade-left" />
   );
 
   return (
