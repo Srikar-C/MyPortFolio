@@ -22,7 +22,7 @@ export default function NavTop() {
   }
   return (
     <div
-      className={`navigation fixed w-[100%] ${
+      className={`navigation fixed w-screen md:w-[100%] ${
         color
           ? "bg-black border-none ease-in-out duration-700"
           : "bg-gray-300 duration-700 ease-in-out"
@@ -150,7 +150,7 @@ export default function NavTop() {
       </div>
       <div className="hambsDrop flex md:hidden absolute flex-col">
         <div
-          className={`dropdown fixed w-[100%] mt-[5vh] flex-col text-center text-white bg-slate-400 text-2xl flex md:hidden ${
+          className={`dropdown fixed w-screen md:w-[100%] mt-[5vh] flex-col text-center text-white bg-slate-400 text-2xl flex md:hidden ${
             toggle ? "block" : "none"
           } ${toggle ? "h-fit" : "h-0"} ${
             toggle ? "overflow-none" : "overflow-hidden"
