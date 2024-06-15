@@ -17,7 +17,7 @@ export default function About() {
   }
   return (
     <div
-      className="about h-fit md:h-[100vh] flex flex-col bg-gradient-to-r from-black via-gray-500 to-black text-white relative mt-[0vh] md:mt-[110vh] pb-[50px] items-center "
+      className="about h-fit md:h-[110vh] flex flex-col bg-gradient-to-r from-black via-gray-500 to-black text-white relative mt-[0vh] md:mt-[110vh] pb-[50px] items-center "
       id="about"
       onClick={handleScroll}
     >
@@ -29,7 +29,7 @@ export default function About() {
           className="education w-[100%] md:w-[45%] border-2 border-white shadow-lg shadow-white"
           data-aos="fade-right"
         >
-          <div className="flex flex-row items-center mx-8">
+          <div className="flex flex-row items-center mx-8 justify-start">
             <RiGraduationCapFill className="text-5xl" />
             <h2 className="text-2xl md:text-4xl ml-10 my-7 font-normal">
               Education

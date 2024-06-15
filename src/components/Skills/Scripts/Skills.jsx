@@ -19,7 +19,7 @@ export default function Skills() {
 
   return (
     <div
-      className="skills bg-gradient-to-r from-gray-900 via-black to-gray-900 text-black relative h-[100vh] md:h-[90vh] items-center flex flex-col py-[30px]"
+      className="skills bg-gradient-to-r from-gray-900 via-black to-gray-900 text-black static md:relative h-[120vh] md:h-[90vh] items-center flex flex-col py-[30px]"
       id="skills"
     >
       <h1 className="text-center text-white text-4xl font-semibold mt-10 mb-5">

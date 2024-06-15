@@ -16,11 +16,11 @@ export default function TimelineCard(props) {
           <TimelineItem>
             <TimelineOppositeContent
               sx={{ m: "auto 0" }}
-              align="right"
+              align="left"
               variant="body2"
               color="white"
             >
-              <p className="text-[12px] md:text-lg w-[40px] md:w-[100%] mx-auto">
+              <p className="text-[12px] md:text-lg w-[40px] md:w-[100%] mx-auto text-center md:text-right">
                 {item.year}
               </p>
             </TimelineOppositeContent>
@@ -29,15 +29,14 @@ export default function TimelineCard(props) {
               <TimelineDot />
               <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent sx={{ py: "12px", px: 2 }}>
+            <TimelineContent>
               <Typography variant="h6" component="span" color="#E9E12F">
-                <p className="text-sm md:text-lg w-[100px] md:w-[100%] m-0 p-0">
+                <p className="text-sm md:text-lg w-[100px] md:w-[100%] m-0 p-0 my-2">
                   {item.course}
                 </p>
               </Typography>
-              <br />
               <Typography variant="p" className="text-xs">
-                <p className="text-[10px] md:text-[14px] w-fit m-0 p-0">
+                <p className="text-[10px] md:text-[14px] w-fit m-0 p-0 my-2 leading-loose">
                   {item.where}
                 </p>
               </Typography>

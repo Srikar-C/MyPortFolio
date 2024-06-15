@@ -1,7 +1,7 @@
 const eduList = [
   {
     id: 1,
-    year: "2021 - Present",
+    year: "2020 - 2024",
     course: "B.Tech - CSE",
     where: "G. Pulla Reddy Engineering College (Autonomous), Kurnool",
   },

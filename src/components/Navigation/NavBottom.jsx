@@ -8,7 +8,7 @@ export default function NavBottom() {
     AOS.init({ duration: 1000 });
   }, []);
   return (
-    <div className="nav-btm mt-[10vh] absolute w-[100%] h-[100vh] justify-center items-center flex flex-col md:flex-row bg-black ">
+    <div className="nav-btm md:mt-[10vh] absolute w-[100%] h-[100vh] md:h-[100vh] justify-center items-center flex flex-col md:flex-row bg-black ">
       <div className="intro w-[100%] md:w-1/2" data-aos="fade-right">
         <h1 className="text-white text-2xl md:text-7xl m-4 text-center md:text-left">
           Hi✋! I'm Challa Srikar
@@ -27,7 +27,7 @@ export default function NavBottom() {
           </span>
         </div>
         <div className="content w-[90%] md:w-100% mx-auto md:mx-0 my-3 md:my-2">
-          <p className="text-white ml-5 text-sm md:text-xl">
+          <p className="text-white mx-2 md:ml-5 text-sm md:text-xl text-justify ">
             With a robust background in programming and software development, I
             am enthusiastic about leveraging my expertise in practical
             scenarios. I am poised to contribute to meaningful projects and
@@ -40,7 +40,7 @@ export default function NavBottom() {
         <img
           src={photo}
           alt="MyPhoto"
-          className=" w-[100%] md:w-[400px] h-[250px] md:h-[450px] rounded-[50%]"
+          className=" w-[100%] md:w-[400px] h-[240px] md:h-[450px] rounded-[50%]"
         />
       </div>
     </div>
