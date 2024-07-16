@@ -1,5 +1,4 @@
 import About from "./components/About/Scripts/About";
-import Contact from "./components/Contact/Contact";
 import Nav from "./components/Navigation/Nav";
 import Projects from "./components/Projects/Scripts/Projects";
 import Skills from "./components/Skills/Scripts/Skills";
