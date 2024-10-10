@@ -1,17 +1,12 @@
 import cat from "../../assets/projects/cat.png";
-import cat2 from "../../assets/projects/cat2.png";
 import hc from "../../assets/projects/hc.jpeg";
-import hc2 from "../../assets/projects/hc2.jpeg";
 import hta from "../../assets/projects/hta.jpeg";
 import inven from "../../assets/projects/inventrom.png";
 import otp from "../../assets/projects/otp.png";
-import pay from "../../assets/projects/pay.jpg";
 import pay2 from "../../assets/projects/pay.png";
 import port from "../../assets/projects/port.jpeg";
-import port2 from "../../assets/projects/port.png";
 import tdl from "../../assets/projects/tdl.jpeg";
 import wat from "../../assets/projects/wat.png";
-import resume from "../../assets/projects/resume.png";
 
 const items = [
   {
