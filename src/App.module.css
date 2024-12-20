@@ -1,0 +1,42 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.custom_shape_divider_bottom_1725515299 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom_shape_divider_bottom_1725515299 svg {
+  position: relative;
+  display: block;
+  width: calc(222% + 1.3px);
+  height: 500px;
+  transform: rotateY(180deg);
+}
+
+.custom_shape_divider_bottom_1725515299 .shape_fill {
+  fill: #104c91;
+}
+
+.poppins {
+  font-family: "Poppins", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.lato {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto {
+  font-family: "Roboto", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
